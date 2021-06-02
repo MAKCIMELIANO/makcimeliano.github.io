@@ -122,6 +122,8 @@ img {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -134,7 +136,6 @@ img {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .button {
@@ -155,7 +156,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
-  margin-bottom: 200px;
 }
 
 /* Особенности */
@@ -255,6 +255,10 @@ img {
   /* justify-content: center; */
 }
 
+.card-thumb {
+  padding-bottom: 30px;
+}
+
 .comanda-title {
   font-weight: 700;
   font-size: 36px;
@@ -262,7 +266,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50px;
 }
 
 .comanda .title {
@@ -270,8 +274,8 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -344,19 +348,29 @@ img {
 
 /* Портфолио */
 
+.line {
+  border: none;
+  background-color: #ececec;
+  height: 2px;
+}
+
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+.card-portfolio {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .filtrs {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding-left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 34px;
 }
 
 .filtrs .item:not(:last-child) {
@@ -380,7 +394,7 @@ img {
 }
 
 .project .title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
   letter-spacing: 0.06em;
   font-style: normal;
@@ -401,6 +415,9 @@ img {
 }
 
 .portfolio-content {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 54px;
   padding-left: 24px;
 }
 
