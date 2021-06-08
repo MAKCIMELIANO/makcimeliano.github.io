@@ -388,6 +388,8 @@
         
     </footer>
 
+<!--Модальное окно-->
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
@@ -395,6 +397,41 @@
                     <use href="./imges/sprite.svg#icon-button"></use>
                 </svg>
             </button>
+            <form action="#" class="modal-form">
+                <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="modal-form-field">
+                    Имя*
+                    <span class="modal-form-input-wrapper">
+                    <input type="text" name="user-name" class="modal-form-input" placeholder="Максим" required minlength="2">
+                    <smg class="modal-form-icon">
+                        <use href="./imges/sprite.svg#icon-person-black-modal"></use>
+                    </smg>
+                    </span>
+                </label>
+                
+                <label class="modal-form-field">
+                    Телефон*
+                    <span class="modal-form-input-wrapper">
+                    <input type="tel" name="user-phone" class="modal-form-input" placeholder="066-666-66-66" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="066-666-66-66" required>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Почта
+                    <span class="modal-form-input-wrapper">
+                        <input type="mail" name="user-mail" class="modal-form-input" >
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Ваше сообщение
+                    <textarea name="user-message" class="modal-form-message" placeholder="сообщение"></textarea>
+                </label>
+                <input type="checkbox" name="user-policy" class="modal-form-check visually-hidden" id="user-policy required">
+                <label for="user-policy" class="modal-form-checkbox-desc">
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="" class="modal-form-checkbox-link">Условия договора</a>
+                </label>
+                <button type="submit" class="modal-form-btn">Отправить</button>
+            </form>
         </div>
     </div>
 
