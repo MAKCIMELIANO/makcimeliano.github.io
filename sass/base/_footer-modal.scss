@@ -11,6 +11,10 @@
   border-radius: 4px;
   padding-left: 12px;
   background-color: #2f303a;
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .footer-modal-form-head {
@@ -51,5 +55,9 @@
   &:hover,
   &:focus {
     background-color: var(--botton-color);
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
   }
 }

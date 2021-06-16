@@ -9,6 +9,10 @@
   margin-left: 93px;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .site-nav__item {
@@ -67,6 +71,10 @@
   display: flex;
   padding: 0;
   margin-left: auto;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .site-contact__link {
@@ -97,4 +105,28 @@
 
 .site-contact__item + .site-contact__item {
   margin-left: 50px;
+}
+
+.header-mobile__btn {
+  margin-left: auto;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #2196f3;
+  }
+
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
+}
+
+.header-mobile__icon {
+  width: 40px;
+  height: 40px;
 }

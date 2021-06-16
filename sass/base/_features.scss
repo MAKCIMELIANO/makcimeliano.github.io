@@ -1,6 +1,10 @@
 .features-section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
 }
 
 .features-list {
@@ -8,11 +12,19 @@
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
 }
 
 .features-list__item {
   flex-basis: calc(100% / 4);
   margin-right: 30px;
+
+  @media screen and (max-width: 767px) {
+    margin-right: 0;
+  }
 
   &::before {
     background-position: center;
@@ -64,4 +76,8 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
 }

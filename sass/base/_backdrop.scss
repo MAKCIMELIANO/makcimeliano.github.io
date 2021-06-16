@@ -45,11 +45,9 @@
   transition: fill 250ms linear;
 
   &:hover {
-  fill: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
-}
-
-
 
 .is-hidden {
   opacity: 0;

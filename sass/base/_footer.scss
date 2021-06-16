@@ -40,11 +40,23 @@
 
 .footer-container {
   display: flex;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+    text-align: center;
+  }
 }
 
 .footer-social {
   margin-left: 70px;
   width: 206px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 .footer-social__title {
