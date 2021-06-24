@@ -13,6 +13,11 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: row;
+    margin-left: 88px;
+  }
 }
 
 .site-nav__item {
@@ -75,6 +80,11 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: column;
+    margin-left: 50px;
+  }
 }
 
 .site-contact__link {
@@ -85,6 +95,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms linear;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 
   &:hover,
   &:focus {
@@ -105,6 +120,10 @@
 
 .site-contact__item + .site-contact__item {
   margin-left: 50px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 0;
+  }
 }
 
 .header-mobile__btn {
